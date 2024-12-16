@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  @font-face {
+    font-family: "MetalMusic-Regular";
+    src: url(customfonts/MetalMusic-Regular.ttf);
+  }
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #fe1295, #acfe2b);
+}
+
+a,
+h1,
+h2,
+h3 {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 20px 3%;
+  box-shadow: 0px 5px 10px gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.links li {
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.links a {
+  color: white;
+  padding: 0 3px 0;
+}
+
+.main-content {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 43px;
+  background-color: lightgray;
+  padding: 3% 60px 100%;
+}
+
+.biography {
+  display: flex;
+}
+
+.biography img {
+  float: right;
+  max-height: 250px;
+}
+
+.biography p {
+  padding: 20px 250px 0 0;
+  font-size: 18px;
+}
+
+.quote {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  font-size: 23px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  padding: 20px 3%;
+  box-shadow: 0px -5px 10px gray;
+  width: 100%;
+  font-style: italic;
+}
+
+.activity hr {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.activity {
+  padding: 20px;
+}
+
+.activity p {
+  margin: 10px 1%;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.activity img {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.activity:nth-of-type(2) img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.activity-description {
+  list-style-type: none;
+}
+
+.activity li {
+  padding: 10px;
+}
+
+h3 {
+  padding: 10px;
+}
+
+.portfolio hr {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.portfolio {
+  padding: 20px 30px 100px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.portfolio p {
+  margin: 10px 1%;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.portfolio img {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.portfolio:nth-of-type(2) img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.portfolio-description {
+  list-style-type: none;
+}
+
+.portfolio li {
+  padding: 10px;
+}
