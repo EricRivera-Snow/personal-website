@@ -1,11 +1,12 @@
+@font-face {
+  font-family: "MetalMusic-Regular";
+  src: url("customfonts/MetalMusic-Regular.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  @font-face {
-    font-family: "MetalMusic-Regular";
-    src: url(customfonts/MetalMusic-Regular.ttf);
-  }
   font-family: sans-serif;
 }
 
@@ -34,6 +35,10 @@ h3 {
   right: 0;
 }
 
+h1 {
+  font-family: "MetalMusic-Regular";
+}
+
 .links li {
   display: inline-block;
   font-family: sans-serif;
@@ -42,6 +47,7 @@ h3 {
 .links a {
   color: white;
   padding: 0 3px 0;
+  font-family: "MetalMusic-Regular";
 }
 
 .main-content {
@@ -72,6 +78,10 @@ h3 {
   justify-content: center;
   font-size: 23px;
   text-align: center;
+}
+
+.quote p {
+  font-family: "MetalMusic-Regular";
 }
 
 .footer {
